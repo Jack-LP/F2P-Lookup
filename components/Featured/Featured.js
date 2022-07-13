@@ -4,9 +4,9 @@ import FeaturedCard from './FeaturedCard';
 
 const Featured = () => {
   return (
-    <Flex direction='column' gap='4'>
+    <Flex direction='column' gap='4' w='100%'>
       <Heading as='h1'>Free-to-play Games for PC and Browser</Heading>
-      <Flex gap='4'>
+      <Flex justify='space-between'>
         <FeaturedCard />
         <FeaturedCard />
         <FeaturedCard />

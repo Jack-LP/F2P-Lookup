@@ -8,6 +8,7 @@ const FeaturedCard = () => {
         src='https://picsum.photos/365/206'
         alt=''
         borderRadius='5px'
+        boxShadow='md'
       ></Image>
     </Box>
   );

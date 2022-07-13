@@ -3,6 +3,7 @@ import axios from 'axios';
 import { Container } from '@chakra-ui/react';
 import Navbar from '../components/Navbar';
 import Featured from '../components/Featured/Featured';
+import Catalog from '../components/Catalog/Catalog';
 
 export default function Home() {
   // const options = {
@@ -34,8 +35,16 @@ export default function Home() {
         <link rel='icon' href='/favicon.ico' />
       </Head>
       <Navbar />
-      <Container maxW='60%' mt='2'>
+      <Container
+        maxW='65%'
+        mt='2'
+        display='flex'
+        flexDirection='column'
+        gap='2'
+        alignItems='center'
+      >
         <Featured />
+        <Catalog />
       </Container>
     </>
   );

@@ -15,7 +15,7 @@ const Navbar = () => {
     <Box bg='blue.500'>
       <Container
         display='flex'
-        maxW='60%'
+        maxW='65%'
         alignItems='center'
         justifyContent='space-between'
         py='4'
